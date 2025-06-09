@@ -31,19 +31,19 @@ public abstract class DispositivoEletronico {
 
 
 
-    public String getModelo() {
+    private String getModelo() {
         return Modelo;
     }
 
-    public void setModelo(String modelo) {
+    private void setModelo(String modelo) {
         Modelo = modelo;
     }
 
-    public String getMarca() {
+    private String getMarca() {
         return Marca;
     }
 
-    public void setMarca(String marca) {
+    private void setMarca(String marca) {
         Marca = marca;
     }
 
@@ -51,7 +51,10 @@ public abstract class DispositivoEletronico {
         return Ligado;
     }
 
-    public void setLigado(boolean ligado) {
+    private void setLigado(boolean ligado) {
         Ligado = ligado;
     }
+    private void getLigado(boolean ligado) {
+        Ligado = ligado;
+}
 }

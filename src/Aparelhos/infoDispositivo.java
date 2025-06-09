@@ -13,10 +13,6 @@ public class infoDispositivo {
             System.out.println("Status: " + dispositivo.exibitStatus());
             System.out.println("Desligar: " + dispositivo.desligar());
             System.out.println("Função Principal: " + dispositivo.executarFuncaoPrincipal());
-            /*System.out.println("Marca: " + dispositivo.getMarca());
-            System.out.println("Modelo: " + dispositivo.getModelo());
-            System.out.println("Ligado: " + dispositivo.estaLigado());*/
-
             System.out.println("---------------------------------");
         }
     }

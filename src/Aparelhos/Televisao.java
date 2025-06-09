@@ -1,19 +1,19 @@
 package Aparelhos;
 
 public class Televisao extends DispositivoEletronico{
-    private String tamaanhoPolegadas;
+    private String tamanhoPolegadas;
 
-    public Televisao(String marca, String modelo, boolean ligado, String tamaanhoPolegadas) {
+    public Televisao(String marca, String modelo, boolean ligado, String tamanhoPolegadas) {
         super(marca, modelo, ligado);
-        this.tamaanhoPolegadas = tamaanhoPolegadas;
+        this.tamanhoPolegadas = tamanhoPolegadas;
     }
 
-    public String getTamaanhoPolegadas() {
-        return tamaanhoPolegadas;
+    public String getTamanhoPolegadas() {
+        return tamanhoPolegadas;
     }
 
-    public void setTamaanhoPolegadas(String tamaanhoPolegadas) {
-        this.tamaanhoPolegadas = tamaanhoPolegadas;
+    public void setTamanhoPolegadas(String tamanhoPolegadas) {
+        this.tamanhoPolegadas = tamanhoPolegadas;
     }
 
     @Override
@@ -27,6 +27,6 @@ public class Televisao extends DispositivoEletronico{
 
     @Override
     public String exibitStatus() {
-        return "Seu monitor tem " + tamaanhoPolegadas + " polegadas.";
+        return "Seu monitor tem " + tamanhoPolegadas + " polegadas.";
     }
 }
