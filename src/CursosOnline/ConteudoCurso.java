@@ -6,27 +6,23 @@ public abstract class ConteudoCurso {
 
     public ConteudoCurso(String titulo, int duracaoMinutos) {
         this.titulo = titulo;
-        this.duracaoMinutos = duracaoMinutos;
+        setDuracaoMinutos(duracaoMinutos);
     }
     private ConteudoCurso() {}
 
-    private String getTitulo() {
+    public String getTitulo() {
         return titulo;
     }
 
-    private void setTitulo(String titulo) {
+    public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
-    private int getDuracaoMinutos() {
+    public int getDuracaoMinutos() {
         return duracaoMinutos;
     }
 
-    private void setDuracaoMinutos(int duracaoMinutos) {
-        if (duracaoMinutos < 0) {
-            System.out.println("A duração não pode ser negativa.");
-            return;
-        }
+    public void setDuracaoMinutos(int duracaoMinutos) {
         this.duracaoMinutos = duracaoMinutos;
     }
 

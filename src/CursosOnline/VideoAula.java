@@ -28,6 +28,8 @@ public class VideoAula extends ConteudoCurso {
 
     @Override
     public String exibirDetalhes() {
-        return "A URL do video é: " + getUrlVideo();
+        return "Titulo: "+ getTitulo()+
+                "\nDuração: " + getDuracaoMinutos() + " Minutos" +
+                "\nURL: " + urlVideo;
     }
 }

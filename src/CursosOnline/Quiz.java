@@ -28,6 +28,8 @@ public class Quiz extends ConteudoCurso {
 
     @Override
     public String exibirDetalhes() {
-        return "O numero de questões do quiz é: " + numeroQuestoes;
+        return "Titulo: "+ getTitulo()+
+               "\nDuração: " + getDuracaoMinutos() + " Minutos" +
+               "\nQuestões: " + numeroQuestoes + " Questões";
     }
 }

@@ -28,7 +28,10 @@ public class ArtigoTexto extends ConteudoCurso {
 
     @Override
     public String exibirDetalhes() {
-        return "O número de paginas do artigo é: " + numeroPaginas;
+        return "Titulo: "+ getTitulo()+
+                "\nDuração: " + getDuracaoMinutos() + "Minutos" +
+                "\nQuantidade paginas; " + numeroPaginas;
     }
 }
+
 
